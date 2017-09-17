@@ -16,7 +16,7 @@ const outDir = path.resolve(__dirname, 'dist');
 const srcDir = path.resolve(__dirname, 'src');
 const nodeModulesDir = path.resolve(__dirname, 'node_modules');
 const baseUrl = '/';
-const prodUrl = '/dist';
+const prodUrl = '/dist/';
 
 const cssRules = [
   { loader: 'css-loader' },
