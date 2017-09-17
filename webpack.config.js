@@ -104,7 +104,7 @@ module.exports = ({production, server, extractCss, coverage} = {}) => ({
       },
       metadata: {
         // available in index.ejs //
-        title, server, prodUrl
+        title, server, baseUrl: prodUrl
       },
     }),
     new HtmlWebpackPlugin({
